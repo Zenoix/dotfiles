@@ -17,6 +17,9 @@ return {
 					["q"] = "close",
 					["l"] = "select_default",
 				},
+				i = {
+					["<esc>"] = "close",
+				},
 			},
 
 			-- configure to use ripgrep
