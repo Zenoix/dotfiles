@@ -9,10 +9,6 @@ vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 -- Keep cursor still when connecting lines to the end of previous lines
 vim.keymap.set("n", "J", "mzJ`z")
 
--- Keep cursor in the middle of screen when jumping around page
-vim.keymap.set("n", "<C-d>", "<C-d>zz")
-vim.keymap.set("n", "<C-u>", "<C-u>zz")
-
 -- When pasting over something, keep the original thing in the clipboard
 vim.keymap.set("x", "<leader>p", '"_dP')
 
