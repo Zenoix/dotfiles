@@ -12,10 +12,10 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
-	{ import = "zenoix.plugins" },
-	{ import = "zenoix.plugins.lsp" },
-	{ import = "zenoix.plugins.dap" },
-	{ import = "zenoix.plugins.mini" },
+	{ import = "plugins" },
+	{ import = "plugins.lsp" },
+	{ import = "plugins.dap" },
+	{ import = "plugins.mini" },
 }, {
 	checker = {
 		enabled = true,

@@ -6,6 +6,6 @@ return {
 		"kristijanhusak/vim-dadbod-completion",
 	},
 	config = function()
-		require("zenoix.config.dadbod-config").setup()
+		require("config.dadbod-config").setup()
 	end,
 }

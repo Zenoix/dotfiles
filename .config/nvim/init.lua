@@ -1,2 +1,2 @@
-require("zenoix.core")
-require("zenoix.lazy")
+require("lua.core.init")
+require("lua.lazy")
